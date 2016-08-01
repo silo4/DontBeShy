@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">DontBeShy</string>
+
+    <!--start-->
+    <string name="startContent">Don\'t be shy</string>
+
+
+    <!--home-->
+    <string name="home_content">This is home</string>
+    <string name="home_exit">Click one more time to exit app</string>
+</resources>
