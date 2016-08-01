@@ -31,7 +31,7 @@ public class VideoSettingActivity extends BaseActivity implements SurfaceHolder.
     private final static String TAG = VideoSettingActivity.class.getSimpleName();
 
     @BindView(R.id.svVideo)
-    SurfaceView mSurfaceview;  // SurfaceView对象：(视图组件)视频显示
+    SurfaceView mSurfaceView;  // SurfaceView对象：(视图组件)视频显示
 
     private SurfaceHolder mSurfaceHolder = null;  // SurfaceHolder对象：(抽象接口)SurfaceView支持类
     private Camera mCamera = null;     // Camera对象，相机预览
@@ -50,7 +50,7 @@ public class VideoSettingActivity extends BaseActivity implements SurfaceHolder.
     }
 
     private void initSurfaceView(){
-        mSurfaceHolder = mSurfaceview.getHolder();
+        mSurfaceHolder = mSurfaceView.getHolder();
         mSurfaceHolder.addCallback(this);
     }
 
