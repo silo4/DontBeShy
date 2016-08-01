@@ -8,4 +8,5 @@
     <!--home-->
     <string name="home_content">This is home</string>
     <string name="home_exit">Click one more time to exit app</string>
+    <string name="home_no_camera_permission">no camera permission</string>
 </resources>
