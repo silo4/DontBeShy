@@ -33,7 +33,8 @@
 
         <activity
             android:name=".ui.av.VideoSettingActivity"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"
+            android:theme="@style/VideoSettingActivityTheme"/>
     </application>
 
 </manifest>

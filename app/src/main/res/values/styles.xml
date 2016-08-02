@@ -12,11 +12,22 @@
         <item name="android:background">@color/colorPrimary</item>
     </style>
 
+    <style name="VideoSettingActivityTheme" parent="@style/WithTitleFullscreen">
+    </style>
+
     <!--设置-全屏-->
     <style name="NoTitleFullscreen" parent="Theme.AppCompat.NoActionBar">
         <item name="android:windowNoTitle">true</item>
         <item name="windowActionBar">false</item>
         <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <!--保留title的全屏-->
+    <style name="WithTitleFullscreen" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowFullscreen">false</item>
         <item name="android:windowContentOverlay">@null</item>
     </style>
 

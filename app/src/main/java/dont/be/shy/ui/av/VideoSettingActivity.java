@@ -16,6 +16,7 @@ import java.util.List;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import butterknife.OnClick;
 import dont.be.shy.R;
 import dont.be.shy.ui.base.BaseActivity;
 import dont.be.shy.utility.Logger;
@@ -47,6 +48,11 @@ public class VideoSettingActivity extends BaseActivity implements SurfaceHolder.
         ButterKnife.bind(this);
 
         initSurfaceView();
+    }
+
+    @OnClick(R.id.ivBack)
+    void onClickBack(){
+        onBackPressed();
     }
 
     private void initSurfaceView(){

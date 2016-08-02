@@ -10,13 +10,24 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
+    <ImageView
+        android:id="@+id/ivBack"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:src="@drawable/video_setting_back"
+        android:scaleType="centerInside"/>
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_below="@id/svVideo"
-        android:layout_marginTop="12dp"
-        android:textColor="@color/colorPrimary"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="12dp"
+        android:textColor="@color/white"
         android:textSize="14sp"
-        android:text="This is video preview" />
+        android:text="@string/video_setting_prompt" />
 </RelativeLayout>
